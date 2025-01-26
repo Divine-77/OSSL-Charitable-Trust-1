@@ -1,0 +1,8 @@
+# -WebDav- 
+
+<LimitExcept GET POST>
+	Require valid-user
+</LimitExcept>
+Authtype basic
+AuthName "Ensim WebDAV Storage"
+ AuthUserFile /home/virtual/site396/fst/var/www/webdav.pwd
